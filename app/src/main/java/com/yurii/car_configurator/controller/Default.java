@@ -1,4 +1,4 @@
-package com.yurii.car_configurator.view;
+package com.yurii.car_configurator.controller;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -10,15 +10,15 @@ import com.yurii.car_configurator.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link Fragment_color#newInstance} factory method to
+ * Use the {@link Default #newInstance} factory method to
  * create an instance of this fragment.
  */
-public class Fragment_color extends Fragment {
+public class Default extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_fragment_3, container, false);
+        return inflater.inflate(R.layout.fragment_default, container, false);
     }
 }
