@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Car_Configurator</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Family">Сімейство автомобілів</string>
+    <string name="model">Виберіть свою модель</string>
+    <string-array name="Opel_models">
+        <item>Astra</item>
+        <item>Corsa</item>
+        <item>Insignia</item>
+        <item>Combo</item>
+    </string-array>
+    <string name="engine">Виберіть Ваш двигун</string>
+    <string-array name="Opel_engines">
+        <item>Opel Z12XEP</item>
+        <item>Opel Z10XEP</item>
+        <item>Opel Z14XEP</item>
+        <item>Opel Z22SE</item>
+        <item>Opel Z22YH</item>
+        <item>Opel Z16SE</item>
+        <item>F18D4</item>
+        <item>Opel Z18XER / A18XER</item>
+        <item>A16XHT</item>
+        <item>A16XER/Z16XER</item>
+        <item>A16LET</item>
+        <item>A14NET/NEL</item>
+    </string-array>
+    <string name="greetings">\t\tВітаємо у нашому Opel App! Тут ви зможете створити авто Opel своєї мрії.</string>
+    <string name="forward">Далі</string>
+    <string name="start">Почати</string>
+    <string name="congrat">Вітаємо! Чудовий вибір!</string>
+    <string name="Final_model">Ваша модель:</string>
+    <string name="Final_engine">Двигун:</string>
+</resources>
