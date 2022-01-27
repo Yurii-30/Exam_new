@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.FinalCarFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvCongrrats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/congrat"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvFamily"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Final_model"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvFinalModel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BDC597"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvEngine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Final_engine"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvFinalEngine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BDC597"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</FrameLayout>
